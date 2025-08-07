@@ -30,7 +30,7 @@ nav h3 {
 /* action section */
 .action{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -46,6 +46,27 @@ nav h3 {
     border-radius: 40px;
 }
 
+
+/* productive section */
+.productive{
+    background-color:#4d47ff22 ;
+    border-radius: 10px;
+    padding:35px 0px ;
+}
+.pro-title{
+    text-align: center;
+}
+.value{
+    display: flex;
+    justify-content: space-around;
+}
+.value-title{
+    color: #4E47FF;
+    font-weight: bolder;
+    font-size: 3em;
+    margin: 0px;
+}
+
 /* shared style */
 .btn-primary {
     background-color: #4E47FF;
@@ -56,9 +77,14 @@ nav h3 {
 }
 
 .margin{
-    margin: 116px 160px;
+    margin: 116px 200px;
 }
 
 .Dark-2{
     color: #25243279;
+}
+
+.size{
+    height: 250px;
+    width: 1140px;
 }
