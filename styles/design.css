@@ -1,0 +1,35 @@
+/* banner related style */
+.banner {
+    height: 500px;
+    width: 1570px;
+    background-image: url(../images/hero-bg.png);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav h3 {
+    color: #4E47FF;
+    margin: 30px 60px;
+}
+
+.bn{
+    text-align: center;
+    
+}
+
+.bn-title{
+    margin: 150px 0px 0px 0px;
+}
+
+/* shared style */
+.btn-primary {
+    background-color: #4E47FF;
+    color: aliceblue;
+    padding: 0px 10px;
+    border-radius: 5px;
+    margin: 30px 60px;
+}
