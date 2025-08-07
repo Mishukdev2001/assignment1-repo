@@ -1,13 +1,14 @@
 /* banner related style */
 .banner {
     height: 500px;
-    width: 1570px;
+    width: 1550px;
     background-image: url(../images/hero-bg.png);
 }
 
 nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 
@@ -25,6 +26,26 @@ nav h3 {
     margin: 150px 0px 0px 0px;
 }
 
+/* main section related style */
+/* action section */
+.action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.btn-primary-1{
+    background-color: #4E47FF;
+    color: aliceblue;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+
+.webflow{
+    border-radius: 40px;
+}
+
 /* shared style */
 .btn-primary {
     background-color: #4E47FF;
@@ -32,4 +53,12 @@ nav h3 {
     padding: 0px 10px;
     border-radius: 5px;
     margin: 30px 60px;
+}
+
+.margin{
+    margin: 116px 160px;
+}
+
+.Dark-2{
+    color: #25243279;
 }
