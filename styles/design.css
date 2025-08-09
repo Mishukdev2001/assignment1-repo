@@ -14,27 +14,30 @@ nav {
 
 nav h3 {
     color: #4E47FF;
-    margin: 30px 60px;
+    margin: 0px 60px;
 }
 
-.bn{
+.bn {
     text-align: center;
-    
+
 }
 
-.bn-title{
+.bn-title {
     margin: 150px 0px 0px 0px;
 }
 
 /* main section related style */
 /* action section */
-.action{
+.action {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    margin: 0px 200px;
+
 }
 
-.btn-primary-1{
+.btn-primary-1 {
     background-color: #4E47FF;
     color: aliceblue;
     padding: 0px 10px;
@@ -42,31 +45,83 @@ nav h3 {
 }
 
 
-.webflow{
+.webflow {
     border-radius: 40px;
 }
 
 
 /* productive section */
-.productive{
-    background-color:#4d47ff22 ;
+.productive {
+    background-color: #4d47ff22;
     border-radius: 10px;
-    padding:35px 0px ;
+    padding: 35px 0px;
 }
-.pro-title{
+
+.pro-title {
     text-align: center;
 }
-.value{
+
+.value {
     display: flex;
     justify-content: space-around;
 }
-.value-title{
+
+.value-title {
     color: #4E47FF;
     font-weight: bolder;
     font-size: 3em;
     margin: 0px;
 }
 
+/* let's get section title */
+.lets-get {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:auto;
+    
+    
+}
+.touch{
+  font-size: 70px;
+}
+ form{
+    font-size: 15px;
+ }
+
+
+.in-touch{
+     background-color: #4E47FF;
+    color: aliceblue;
+    padding: 0px 10px;
+    border-radius: 5px;
+    padding:10px 45px;
+}
+
+/* footer related style */
+.logo{
+text-align: center;
+margin: 120px 400px;
+
+}
+
+.list ul {
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    list-style: none;
+}
+ .list li a{
+
+    text-decoration: none;
+ }
+
+ .loogo{
+    color: #4E47FF;
+    /* width: 50px; */
+    font-size: 70px;
+    margin:140px auto 0px auto ;
+ }
 /* shared style */
 .btn-primary {
     background-color: #4E47FF;
@@ -76,15 +131,15 @@ nav h3 {
     margin: 30px 60px;
 }
 
-.margin{
+.margin {
     margin: 116px 200px;
 }
 
-.Dark-2{
+.Dark-2 {
     color: #25243279;
 }
 
-.size{
+.size {
     height: 250px;
     width: 1140px;
 }
